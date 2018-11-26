@@ -1,7 +1,8 @@
 public class Hello {
     public static void main(String[] args){
 
-        System.out.println("Hello Kevin!");
+        String name = "Kevin";
+        System.out.println("Hello %s!", name);
         int myFirstNumber = 5;
         int mySecondNumber = 12;
         int myThirdNumber = 6;
